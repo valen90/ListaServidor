@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:key="DG"
+        android:title="Datos Conexion">
+        <EditTextPreference
+            android:key="IP"
+            android:title="IP"
+            android:summary="Establezca la IP del servidor"
+            android:defaultValue="iesayala.ddns.net"/>
+        <EditTextPreference
+            android:key="PHP"
+            android:title="Direccion PHP"
+            android:summary="Establezca la dirección PHP"
+            android:defaultValue="/valen/php.php"/>
+        />
+    </PreferenceCategory>
+</PreferenceScreen>
